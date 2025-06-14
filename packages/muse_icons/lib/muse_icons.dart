@@ -1,14 +1,14 @@
 import 'dart:math';
 import 'package:flutter/widgets.dart';
 
-class MuseIcon extends IconData {
+class MuseIcons extends IconData {
   static const String _fontFamily = 'MuseIcons';
   static const String _fontPackage = 'muse_icons';
   static const int _minCodePoint = 0xe601;
   static const int _maxCodePoint = 0xe621;
   static final Random _random = Random();
 
-  const MuseIcon(super.codePoint)
+  const MuseIcons(super.codePoint)
     : super(fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   static IconData get acaleph => _createIconData(0xe614);

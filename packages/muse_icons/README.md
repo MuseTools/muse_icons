@@ -27,32 +27,32 @@ $ flutter pub add muse_icons
 ### Import it
 
 ```dart
-import 'package:muse_icons/muse_icon.dart';
+import 'package:muse_icons/muse_icons.dart';
 ```
 
 ### get IconData
 
 ```dart
-MuseIcon.acaleph /// type: IconData
+MuseIcons.acaleph /// type: IconData
 ```
 
 ### Random icon generation
 
 ```dart
-MuseIcon.random /// type: IconData
+MuseIcons.random /// type: IconData
 ```
 
 ### Random color generation
 
 ```dart
 ///  Return all random colors
-MuseIcon.getRandomColor();
+MuseIcons.getRandomColor();
 
 /// Return vibrant random colors, remove dull colors
-MuseIcon.getVibrantRandomColor();
+MuseIcons.getVibrantRandomColor();
 
 /// Return high-saturation HSB colors, more vibrant than ordinary random colors
-MuseIcon.getRandomHSBColor();
+MuseIcons.getRandomHSBColor();
 ```
 
 ## License

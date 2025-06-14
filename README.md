@@ -15,8 +15,8 @@ Although the illustrations are quite rough, I don't plan to redraw them unless i
 
 ### UI Widgets
 
-- [MuseIcon Demos](https://github.com/musetools/muse_icons/tree/main/apps/muse_demo/lib/demo/button)
-  ![MuseIcon](http://oss.musetools.uk/pic/museicons.png)
+- [MuseIcons Demos](https://github.com/musetools/muse_icons/tree/main/apps/muse_demo/lib/demo/button)
+  ![MuseIcons](http://oss.musetools.uk/pic/MuseIcons.png)
 
 ## Getting started
 
@@ -35,26 +35,26 @@ import 'package:muse_icons/muse_icon.dart';
 ### get IconData
 
 ```dart
-MuseIcon.acaleph /// type: IconData
+MuseIcons.acaleph /// type: IconData
 ```
 
 ### Random icon generation
 
 ```dart
-MuseIcon.random /// type: IconData
+MuseIcons.random /// type: IconData
 ```
 
 ### Random color generation
 
 ```dart
 ///  Return all random colors
-MuseIcon.getRandomColor();
+MuseIcons.getRandomColor();
 
 /// Return vibrant random colors, remove dull colors
-MuseIcon.getVibrantRandomColor();
+MuseIcons.getVibrantRandomColor();
 
 /// Return high-saturation HSB colors, more vibrant than ordinary random colors
-MuseIcon.getRandomHSBColor();
+MuseIcons.getRandomHSBColor();
 ```
 
 ## How to Use

@@ -13,8 +13,8 @@
 
 ### UI Widgets
 
-- [MuseIcon Demos](https://github.com/musetools/muse_icons/tree/main/apps/muse_demo/lib/demo/button)
-![MuseIcon](http://oss.musetools.uk/pic/museicons.png)
+- [MuseIcons Demos](https://github.com/musetools/muse_icons/tree/main/apps/muse_demo/lib/demo/button)
+![MuseIcons](http://oss.musetools.uk/pic/MuseIcons.png)
 
 ## Getting started
 
@@ -32,24 +32,24 @@ import 'package:muse_icons/muse_icon.dart';
 
 ### 获取图标
 ```dart
-MuseIcon.acaleph /// type: IconData
+MuseIcons.acaleph /// type: IconData
 ```
 
 ### 随机生成图标
 ```dart
-MuseIcon.random /// type: IconData
+MuseIcons.random /// type: IconData
 ```
 
 ### 随机生成颜色
 ```dart
 ///  返回全部随机颜色
-MuseIcon.getRandomColor();
+MuseIcons.getRandomColor();
 
 /// 返回 vibrant 随机颜色，去处了暗淡的颜色
-MuseIcon.getVibrantRandomColor();
+MuseIcons.getVibrantRandomColor();
 
 /// 返回高饱和度HSB颜色，比普通随机颜色更鲜艳
-MuseIcon.getRandomHSBColor();
+MuseIcons.getRandomHSBColor();
 ```
 
 ## How to Use
